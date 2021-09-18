@@ -2,4 +2,4 @@
 
 source "$(dirname $0)/common.sh"
 
-ddc_adjust 'input_source' $1
+ddc_adjust 'input_source' $(dealias $1)
